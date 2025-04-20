@@ -1,4 +1,4 @@
-package com.ohno.config.kafka;
+package com.ohno.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;
@@ -10,7 +10,7 @@ public class KafkaTopicConfig {
 
     @Bean
     public NewTopic newTopic() {
-        return TopicBuilder.name("wikimedia_recentchange")
+        return TopicBuilder.name("wikimedia_recent_change")
                 .build();
     }
 }
