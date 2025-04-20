@@ -13,6 +13,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-kafka-wikimedia</name>
 	<description>Demo project for Spring Boot</description>
+	<modules>
+		<module>springboot-kafka-wikimedia-producer</module>
+	</modules>
+	<packaging>pom</packaging>
 	<url/>
 	<licenses>
 		<license/>
