@@ -8,7 +8,7 @@
         <artifactId>springboot-kafka-wikimedia</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
+    <packaging>jar</packaging>
     <artifactId>springboot-kafka-wikimedia-producer</artifactId>
 
     <properties>
