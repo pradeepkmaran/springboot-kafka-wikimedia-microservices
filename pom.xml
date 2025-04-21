@@ -15,7 +15,8 @@
 	<description>Demo project for Spring Boot</description>
 	<modules>
 		<module>springboot-kafka-wikimedia-producer</module>
-	</modules>
+        <module>springboot-kafka-wikimedia-consumer</module>
+    </modules>
 	<packaging>pom</packaging>
 	<url/>
 	<licenses>
